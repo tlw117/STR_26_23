@@ -4,29 +4,28 @@
 Group 23
 
 ## Focus Area
-Structure
+Structures
 
 ## Claim
-The existing structural columns have sufficient capacity to support the proposed addition of two floors.
+The existing concrete columns S202 and S208 have sufficient remaining capacity
+to accommodate additional loading from the proposed transformation.
+
+The claim is based on Section 3.5 "Further analysis" of the Client Report,
+where the remaining capacities of columns S202 and S208 are stated to be
+approximately 520 kN and 630 kN, respectively.
 
 ## Investigation
-The structural system of Building 308 will be investigated using the IFC model and the information provided in the Client Report.
+The structural IFC model will be investigated to identify columns S202 and S208
+and extract relevant information about their geometry and material properties.
 
-The investigation will focus on the load-bearing columns, with particular attention to columns S101, S202, S206 and S208, which are identified in the Client Report as requiring further analysis.
-
-The IFC model will be used to extract relevant information about the columns, such as:
-- Column identification
-- Material
-- Cross-sectional dimensions
-- Location and storey
-
-The extracted information will be used to investigate whether the existing columns have sufficient capacity for the proposed additional floors.
+The information obtained from the BIM model will be used to investigate the
+axial load-bearing capacity of the columns and compare the results with the
+values stated in the Client Report.
 
 ## Identified Issues
-To be determined through the investigation.
+
 
 ## Possible Solutions
-To be determined based on the identified issues.
+
 
 ## Conclusion
-To be completed after the investigation.
