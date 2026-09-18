@@ -8,6 +8,7 @@ Structures
 
 ## Report
 26-06-A-ClientReport-Anon
+Page number: 10 
 
 ## Claim
 The existing S206 steel columns may not have sufficient load-bearing capacity for the additional loads resulting from the proposed two-storey extension.
