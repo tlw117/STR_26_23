@@ -37,7 +37,7 @@ An existing OpenBIM tool, "2520: IFC Column Axial Capacity Analysis", was identi
 
 The tool could potentially be adapted to investigate the S206 steel columns and support the assessment of whether they need to be strengthened or replaced.
 
-The tool is highly relevant to the issue, since it calculates axial capacity based on column geometry and material properties. However, because the current script appears to use concrete strength, it would need to be adapted to handle steel properties before it could be used to verify the capacity of the S206 steel columns.
+The tool is highly relevant to the issue, since it calculates axial capacity based on column geometry and material properties. However, because the current script uses concrete strength, it would need to be adapted to handle steel properties before it could be used to verify the capacity of the S206 steel columns.
 
 ## Conclusion
 
