@@ -284,12 +284,3 @@ The main objective is to create a transparent and repeatable workflow that can a
 
 The workflow and tool scope defined in this assignment will provide the basis for implementation in the following assignment.
 
----
-
-## References
-
-1. Group 6, Advanced Building Design (2026). *26-06-A-ClientReport-Anon*, p. 10.
-2. DTU, Advanced Building Information Modelling (41934). *Assignment 2 – Use Case*.
-3. OpenBIM tool example: *2520 – IFC Column axial capacity analysis*.
-4. IfcOpenShell documentation: https://docs.ifcopenshell.org/
-5. MIT Licence: https://opensource.org/license/mit
