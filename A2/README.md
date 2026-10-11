@@ -273,15 +273,4 @@ We plan to use Python and IfcOpenShell for data extraction and structural calcul
 
 ---
 
-## Conclusion
-
-This assignment presents a proposed OpenBIM workflow for investigating the axial load-bearing capacity of existing S206 steel columns in Building #2606.
-
-The investigation is based on an issue identified in the Client Report, where the columns were considered potentially insufficient for the additional loads resulting from a proposed two-storey extension.
-
-The proposed Python tool will use IfcOpenShell to extract relevant structural information from the IFC model and support an axial capacity assessment.
-
-The main objective is to create a transparent and repeatable workflow that can assist structural engineers in evaluating existing columns and identifying whether further structural investigation, strengthening or replacement may be necessary.
-
-The workflow and tool scope defined in this assignment will provide the basis for implementation in the following assignment.
 
