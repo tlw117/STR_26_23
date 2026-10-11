@@ -232,7 +232,7 @@ The tool can therefore contribute to more resource-efficient renovation and exte
 
 The following BPMN diagram summarises the proposed Python tool, including its main inputs, processing steps and expected outputs.
 
-![A2e – Proposed Python Tool](IMG/A2e_tool_idea.svg)
+![A2c – Overall BPMN Workflow](IMG/A2e_tool_idea.svg)
 
 ---
 
