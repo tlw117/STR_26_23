@@ -270,6 +270,7 @@ We need to learn how to extract the required IFC information using Python and If
 We propose using the **MIT License** for our Python-based OpenBIM tool, allowing others to use, modify and share our code.
 
 We plan to use Python and IfcOpenShell for data extraction and structural calculations, and Blender with Bonsai for visual inspection of the IFC model.
+
 ---
 
 ## Conclusion
