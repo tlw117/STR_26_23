@@ -238,84 +238,38 @@ The following BPMN diagram summarises the proposed Python tool, including its ma
 
 ## A2f: Information Requirements
 
-To assess the axial load-bearing capacity of the S206 steel columns, information must be obtained from the structural IFC model and, where necessary, from external structural design documentation.
+### What information needs to be extracted from the model?
 
-The following table identifies the required information, its possible location in IFC, and how it could be accessed using IfcOpenShell.
+- Identification and number of S206 steel columns.
+- Column geometry, cross-sectional dimensions and length.
+- Material properties, including steel grade and strength.
+- Relevant design parameters for calculating axial capacity.
 
-| Required information | Possible IFC location | Availability | IfcOpenShell approach |
-|---|---|---|---|
-| S206 column identification | `IfcColumn`, `IfcColumnType`, `Name`, `Tag` | To be verified | Identify columns using `by_type("IfcColumn")` and inspect names, tags and types |
-| Column geometry | `IfcProductDefinitionShape` and geometric representations | To be verified | Inspect column geometry and representations |
-| Cross-sectional dimensions | `IfcProfileDef`, profile representations or geometry | 60 × 60 mm stated in Client Report; IFC verification required | Extract profile dimensions or derive dimensions from geometry |
-| Column length | Geometric representation and object placement | To be verified | Extract geometry and calculate column length |
-| Material | `IfcMaterial` and material associations | To be verified | Use `ifcopenshell.util.element.get_material()` |
-| Steel grade and strength | Material properties or custom IFC property sets | To be verified | Inspect material information and property sets |
-| Design axial load | Structural analysis data or external calculations | Not confirmed in IFC | Obtain from structural engineer or external documentation |
-| Buckling length and support conditions | Structural analysis information or external documentation | Not confirmed in IFC | Obtain and validate the necessary structural parameters |
+The design loads from the proposed extension will be obtained separately.
 
-### Is the Required Information Available in the Model?
+### Where is this information in IFC?
 
-The Client Report identifies the S206 columns as 60 × 60 mm solid square steel columns.
+The columns can be identified using `IfcColumn`. Their geometry and material information may be accessed through IFC geometric representations, material associations and property sets.
 
-However, the availability of the required information in the structural IFC model has not yet been fully verified.
+### Is it in the model?
 
-During the development of the tool, the model must be inspected to determine whether the S206 columns can be identified and whether their geometry, dimensions and material properties can be extracted.
+The Client Report identifies the S206 columns as 60 × 60 mm solid square steel columns. However, we have not yet verified whether all the required information is available in the IFC model. Missing properties or design parameters may need to be provided separately.
 
-Steel grade, yield strength, buckling length, support conditions and design loads may not be included in the IFC model and may need to be provided separately.
+### Do you know how to get it in IfcOpenShell?
 
-If the required information is unavailable, the tool should report the missing data rather than produce an unsupported capacity assessment.
+We plan to use Python and IfcOpenShell to identify the relevant columns and extract their geometry and material properties. The exact extraction methods will be investigated during tool development.
 
-### Do We Know How to Extract the Information Using IfcOpenShell?
+### What will you need to learn to do this?
 
-IfcOpenShell provides Python functions for opening IFC files, identifying IFC elements and accessing their attributes, properties, materials and geometry.
-
-We plan to use functions such as:
-
-- `ifcopenshell.open()` to open the IFC model.
-- `model.by_type("IfcColumn")` to identify column elements.
-- `ifcopenshell.util.element.get_psets()` to access available property sets.
-- `ifcopenshell.util.element.get_material()` to retrieve material associations.
-- IFC geometry utilities to inspect the column dimensions and cross-sectional geometry.
-
-The exact extraction method will depend on how the structural IFC model represents the S206 columns.
-
-### What Do We Need to Learn?
-
-To implement the tool successfully, we need to develop our understanding of:
-
-1. Identifying specific structural elements in an IFC model using Python and IfcOpenShell.
-2. Extracting geometric information and cross-sectional dimensions.
-3. Retrieving material properties and steel grade information.
-4. Handling missing or incomplete IFC information.
-5. Adapting an existing axial capacity calculation tool from concrete to steel.
-6. Implementing appropriate steel axial resistance calculations and understanding the influence of buckling.
-7. Comparing calculated resistance with externally provided design loads.
-8. Generating a clear and reproducible assessment report.
-
-These learning requirements will also be recorded in the course's Teams Excel file.
+We need to learn how to extract the required IFC information using Python and IfcOpenShell, calculate the axial resistance of steel columns, handle missing data and generate an assessment report.
 
 ---
 
 ## A2g: Software Licence
 
-### Selected Licence: MIT Licence
+We propose using the **MIT License** for our Python-based OpenBIM tool, allowing others to use, modify and share our code.
 
-We propose to use the **MIT Licence** for our Python-based OpenBIM tool.
-
-The MIT Licence is a permissive open-source software licence that allows other users to use, modify, distribute and further develop the code, provided that the original copyright and licence notice are included.
-
-### Justification
-
-The MIT Licence is appropriate for our project because the tool is intended to support an open and reusable BIM workflow.
-
-It allows other students, researchers and industry professionals to adapt the tool for different structural elements and IFC models.
-
-This supports collaboration, transparency and further development of the tool.
-
-The licence also allows the software to be used in both academic and commercial contexts.
-
-Any reused code or external libraries must continue to comply with their respective software licences.
-
+We plan to use Python and IfcOpenShell for data extraction and structural calculations, and Blender with Bonsai for visual inspection of the IFC model.
 ---
 
 ## Conclusion
