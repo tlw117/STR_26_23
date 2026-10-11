@@ -178,7 +178,7 @@ The tool is intended to support the structural engineer and does not replace a c
 
 The diagram below highlights the activities that are intended to be implemented or supported by the Python tool.
 
-The highlighted steps represent the new script or functions needed for the use case.
+The highlighted red steps represent the new script or functions needed for the use case.
 
 ![A2d – Highlighted Python Tool Scope](IMG/A2d_tool_scope.svg)
 
