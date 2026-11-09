@@ -13,7 +13,7 @@ This tutorial explains how to use GitHub to organize, document, and share BIM pr
 **Video:** [YouTube link]
 
 ## About this tutorial
-- **Focus area:** [your focus area]
+- **Focus area:** Structures
 - **BIM use:** [e.g. coordination / collaborative modelling]
 - **Role and learning level:** [role], level [1/2/3]
 - **Learning need owner:** [person/group who proposed the need]
