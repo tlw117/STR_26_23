@@ -20,7 +20,6 @@ GitHub is a platform for version control and collaboration. It allows users to s
 
 In BIM projects, multiple team members may work on reports, scripts, diagrams, and model-related documentation. GitHub helps teams organize these contributions and keep track of different versions.
 
-This tutorial focuses on two useful GitHub features: **Branches** and **Pull Requests**.
 
 ## 2. Learning Objectives
 
