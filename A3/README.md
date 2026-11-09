@@ -54,23 +54,9 @@ Pull requests allow teammates to:
 
 ### Example Workflow
 
-```text
-Main branch
-    |
-    |---- Create a new branch
-    |          |
-    |          |---- Edit README.md
-    |          |
-    |          |---- Commit changes
-    |          |
-    |          |---- Open Pull Request
-    |                       |
-    |                       |---- Review changes
-    |                       |
-    |                       |---- Merge into main
-    |
-Updated main branch
-```
+![GitHub Branches and Pull Requests Workflow](IMG/github-workflow.png)
+
+*Figure 1. Workflow showing how branches and pull requests are used to update the main branch.*
 
 ## 4. Step-by-Step Tutorial
 
