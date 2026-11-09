@@ -15,6 +15,7 @@
 This tutorial introduces GitHub as a collaboration platform for BIM projects, focusing on branches and pull requests. Through a practical example, students will learn how to work independently, review changes, and combine contributions in a shared repository.
 
 ## 1. Introduction
+...
 
 GitHub is a platform for version control and collaboration. It allows users to store project files, track changes, and work together in a shared repository.
 
