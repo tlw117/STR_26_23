@@ -185,10 +185,6 @@ The second line (`|---|---|`) is required. It tells Markdown the first line is t
 
 ---
 
-## Try it yourself (optional)
-1. Create a folder with a `README.md` inside it.
-2. Give your README a heading, a list, an image and a link, and check it with Preview before committing.
-
 ## Troubleshooting
 | Problem | Fix |
 |---|---|
