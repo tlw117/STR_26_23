@@ -10,9 +10,9 @@
 **Video:** [YouTube link]
 
 ## About this tutorial
-- **Focus area:** [your focus area]
+- **Focus area:** structures
 - **BIM use:** [how GitHub supports your BIM work, e.g. sharing models, scripts and reports]
-- **Role and learning level:** [role], level [1/2/3]
+- **Role and learning level:** Analyser, level 1
 - **Learning need owner:** [person/group who proposed the need]
 
 ### Learning objectives
@@ -26,7 +26,7 @@ After this tutorial you will be able to:
 
 ## Prerequisites
 - A free GitHub account
-- VS Code (for Part 4 onwards)
+- VS Code
 - Git installed on your computer
 
 ## Key terms
