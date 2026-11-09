@@ -87,11 +87,6 @@ A template your group can copy and fill in:
 - Who reviews pull requests:
 - How we tell each other what we're working on:
 
-## Exercises
-1. Accept an invite to the practice repo and add a file with your name
-2. Create a branch, edit the README, and open a pull request
-3. With a partner, create a merge conflict on purpose and resolve it
-
 ## Troubleshooting
 | Problem | Fix |
 |---|---|
@@ -100,9 +95,6 @@ A template your group can copy and fill in:
 | Push rejected | Someone pushed before you. Pull first, then push again |
 | My changes disappeared | Check you're on the right branch, and check the commit history |
 | Merge conflict | See Part 6 |
-
-## Peer feedback
-[Link to feedback form / summary of feedback received]
 
 ## Authors
 [Names, group number]
