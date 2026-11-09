@@ -76,9 +76,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 4. Select the option to create the new branch from `main`.
 5. Make sure you are now working on your new branch.
 
-![Creating a new branch](IMG/step1-branch.png)
-
-*Figure 1. Creating a new branch in GitHub.*
 
 ### Step 2 – Make Changes and Commit
 
@@ -89,9 +86,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 5. Enter a descriptive commit message, such as `Add structural analysis section`.
 6. Commit the changes to your feature branch.
 
-![Committing changes](IMG/step2-commit.png)
-
-*Figure 2. Committing changes to the feature branch.*
 
 ### Step 3 – Create a Pull Request
 
@@ -103,9 +97,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 6. Click **Create pull request**.
 7. Add a short description explaining what was changed.
 
-![Creating a pull request](IMG/step3-pull-request.png)
-
-*Figure 3. Creating a pull request.*
 
 ### Step 4 – Review and Merge
 
@@ -116,9 +107,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 5. Confirm the merge.
 6. Return to `main` and verify that the changes are included.
 
-![Merging a pull request](IMG/step4-merge.png)
-
-*Figure 4. Merging the pull request into main.*
 
 ## 5. Common Mistakes and How to Avoid Them
 
