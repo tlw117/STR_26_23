@@ -1,195 +1,185 @@
+
 # Assignment 3 – Teach
 
-## How to Organize and Document BIM Projects Using GitHub
+# GitHub Branches and Pull Requests for BIM Collaboration
 
-# Adding Files and Writing READMEs on GitHub
-
-## Summary
-**Title:** Adding Files and Writing READMEs on GitHub
-
-**Description:** A beginner's guide to working in a shared GitHub repository: adding files and folders, committing changes, and writing clear README files in Markdown with headings, images, links, code blocks and tables.
-
-**Video:** [YouTube link]
-
-## Why we made this tutorial
-When our group started using GitHub for the course, we struggled with the basics. We weren't sure what a repository was, we couldn't find the "Add file" button, and we didn't know how to create a folder for each assignment. Writing READMEs in Markdown was also new to us.
-
-Every group in the course has to submit their work through GitHub, but there wasn't a simple tutorial covering these first steps. We made this tutorial so other students can skip the confusion we went through.
-
-[Add your own experiences here: what was hardest, what you wish you had known at the start.]
-
-## About this tutorial
-- **Focus area:** [your focus area]
-- **BIM use:** [how GitHub supports your BIM work, e.g. sharing models, scripts and reports]
-- **Role and learning level:** [role], level [1/2/3]
-- **Learning need owner:** [person/group who proposed the need]
-
-### Learning objectives
-After this tutorial you will be able to:
-1. Add, upload and edit files in a shared GitHub repository
-2. Create folders to organise your assignments
-3. Commit changes with clear commit messages
-4. Write a README in Markdown with headings, lists, links, images, code blocks and tables
-
-## Prerequisites
-- A free GitHub account
-- Access to a repository (as owner or invited collaborator)
-
-## Key terms
-| Term | What it means |
-|---|---|
-| Repository (repo) | A project folder on GitHub that keeps a full history of every change |
-| Commit | A saved snapshot of your changes, with a short message describing them |
-| Collaborator | A person who has been given permission to edit a repo |
-| README | The text file GitHub shows on a folder's page, used to describe the work |
-| Markdown | A simple way of formatting text using symbols like `#` and `*` |
+**Course:** 41934 Advanced BIM  
+**Group:** 23 – Structures  
+**Topic:** GitHub collaboration and version control  
+**Target audience:** BIM students with basic GitHub experience  
+**Learning level:** Beginner to intermediate  
+**Estimated duration:** 10–15 minutes
 
 ---
 
-## Part 1: Working on GitHub
+## Tutorial Summary
 
-### 1.1 Adding a file
-1. Make sure you are **signed in** to GitHub.
-2. Open your repository's main page.
-3. Click the **Add file** button (next to the green **Code** button) and choose **Create new file**.
-4. Type a name for your file in the box at the top, e.g. `notes.md`.
-5. Write the content of your file in the large text box.
-6. Click the green **Commit changes...** button (see 1.5 for what to write).
+This tutorial introduces GitHub as a collaboration platform for BIM projects, focusing on branches and pull requests. Through a practical example, students will learn how to work independently, review changes, and combine contributions in a shared repository.
 
-> If you can't see the **Add file** button, you are either not signed in or not a collaborator on the repo. See Troubleshooting.
+## 1. Introduction
 
-### 1.2 Creating a folder
-GitHub can't create empty folders, so you make a folder by creating a file inside it.
+GitHub is a platform for version control and collaboration. It allows users to store project files, track changes, and work together in a shared repository.
 
-1. Click **Add file → Create new file**.
-2. In the filename box, type the folder name followed by a slash, e.g. `A3/`.
-3. GitHub turns `A3` into a folder automatically. Now type the filename, e.g. `README.md`, so the full path reads `A3/README.md`.
-4. Add some content and click **Commit changes...**.
+In BIM projects, multiple team members may work on reports, scripts, diagrams, and model-related documentation. GitHub helps teams organize these contributions and keep track of different versions.
 
-To create a file inside a folder that already exists, open that folder first, then click **Add file**.
+This tutorial focuses on two useful GitHub features: **Branches** and **Pull Requests**.
 
-### 1.3 Uploading files
-Use this for images, PDFs, IFC models, Python scripts and other files you already have on your computer.
+## 2. Learning Objectives
 
-1. Open the folder you want to upload to (e.g. `A3`).
-2. Click **Add file → Upload files**.
-3. Drag your files into the page, or click **choose your files** to browse.
-4. Write a commit message, e.g. "Add screenshots for A3".
-5. Click **Commit changes**.
+After completing this tutorial, students should be able to:
 
-Tip: keep images in their own folder, e.g. `A3/images/`. To do that, upload them from inside the `images` folder (create it first with a placeholder file, as in 1.2).
+- Explain the purpose of branches and pull requests.
+- Create a new branch in a GitHub repository.
+- Make and commit changes without directly editing the main branch.
+- Create and review a pull request.
+- Merge changes into the main branch.
+- Apply this workflow when collaborating on BIM projects.
 
-### 1.4 Editing a file
-1. Click on the file to open it.
-2. Click the **pencil icon** (Edit this file) at the top right of the file.
-3. Make your changes.
-4. Click **Commit changes...**.
+## 3. Understanding Branches and Pull Requests
 
-### 1.5 Committing and writing good commit messages
-Every change you make on GitHub is saved as a **commit**. When you click **Commit changes...**, a window appears:
+### What is a Branch?
 
-1. **Commit message:** a short line describing what you changed.
-2. **Extended description** (optional): more detail if needed.
-3. Leave **Commit directly to the main branch** selected.
+A branch is a separate line of development within a repository. It allows users to work on changes without directly modifying the main version of the project.
+
+For example, a student working on structural documentation can create a branch called `update-structural-report` while other team members continue working on their own tasks.
+
+### What is a Pull Request?
+
+A pull request (PR) is a request to review and merge changes from one branch into another.
+
+Pull requests allow teammates to:
+
+- Review proposed changes.
+- Discuss improvements.
+- Identify possible conflicts.
+- Approve changes before merging them into `main`.
+
+### Example Workflow
+
+```text
+Main branch
+    |
+    |---- Create a new branch
+    |          |
+    |          |---- Edit README.md
+    |          |
+    |          |---- Commit changes
+    |          |
+    |          |---- Open Pull Request
+    |                       |
+    |                       |---- Review changes
+    |                       |
+    |                       |---- Merge into main
+    |
+Updated main branch
+```
+
+## 4. Step-by-Step Tutorial
+
+For this demonstration, we will use a sample BIM project repository containing a README file.
+
+### Step 1 – Create a New Branch
+
+1. Open your GitHub repository.
+2. Click the branch selector, usually displaying `main`.
+3. Enter a new branch name, for example `update-structural-report`.
+4. Select the option to create the new branch from `main`.
+5. Make sure you are now working on your new branch.
+
+![Creating a new branch](IMG/step1-branch.png)
+
+*Figure 1. Creating a new branch in GitHub.*
+
+### Step 2 – Make Changes and Commit
+
+1. Open `README.md` while on your new branch.
+2. Click the edit (pencil) icon.
+3. Add a short section about your BIM project.
 4. Click **Commit changes**.
+5. Enter a descriptive commit message, such as `Add structural analysis section`.
+6. Commit the changes to your feature branch.
 
-Good commit messages tell your teammates what happened without opening the file:
+![Committing changes](IMG/step2-commit.png)
 
-| Bad | Good |
+*Figure 2. Committing changes to the feature branch.*
+
+### Step 3 – Create a Pull Request
+
+1. Open the **Pull requests** tab.
+2. Click **New pull request**.
+3. Select `main` as the base branch.
+4. Select `update-structural-report` as the compare branch.
+5. Review the proposed changes.
+6. Click **Create pull request**.
+7. Add a short description explaining what was changed.
+
+![Creating a pull request](IMG/step3-pull-request.png)
+
+*Figure 3. Creating a pull request.*
+
+### Step 4 – Review and Merge
+
+1. Ask a teammate to open the pull request.
+2. Review the changes under **Files changed**.
+3. Discuss any necessary improvements.
+4. If the changes are ready and merging is permitted, click **Merge pull request**.
+5. Confirm the merge.
+6. Return to `main` and verify that the changes are included.
+
+![Merging a pull request](IMG/step4-merge.png)
+
+*Figure 4. Merging the pull request into main.*
+
+## 5. Common Mistakes and How to Avoid Them
+
+| Common mistake | Recommended solution |
 |---|---|
-| `update` | `Add learning objectives to A3 README` |
-| `asdf` | `Fix broken image link in A2` |
-| `changes` | `Upload IFC model for structural analysis` |
+| Editing directly on `main` | Create a feature branch before making changes. |
+| Pull request contains unexpected changes | Check the base and compare branches. |
+| Changes are missing from GitHub | Make sure the changes were committed and pushed. |
+| Merge conflict occurs | Review and resolve conflicting changes before merging. |
+| Unclear commit messages | Use short, descriptive commit messages. |
 
-You can see every commit by clicking **Commits** on the repo's main page. This shows who changed what and when.
+> **Important for BIM projects:** GitHub is particularly useful for text-based files such as Markdown, Python scripts, and documentation. IFC model files can be versioned, but changes to the same IFC file may not be easy to compare or merge using standard Git tools.
+
+## 6. Practical Exercise – Try It Yourself!
+
+Now it is your turn to practice using branches and pull requests.
+
+### Exercise
+
+Work with a teammate in a test repository and complete the following tasks:
+
+- [ ] Create a new branch called `update-bim-report`.
+- [ ] Open the README file on your new branch.
+- [ ] Add a short section describing a BIM-related task.
+- [ ] Commit your changes with a descriptive message.
+- [ ] Create a pull request targeting `main`.
+- [ ] Ask a teammate to review your changes.
+- [ ] Merge the pull request after review.
+- [ ] Verify that the updated README appears on `main`.
+
+**Expected outcome:** You should understand how to propose, review, and merge changes without directly editing the main branch.
+
+## 7. Video Tutorial
+
+Watch our step-by-step demonstration of the workflow described above.
+
+**Video:** [Watch the tutorial](INSERT_VIDEO_LINK_HERE)
+
+## 8. Conclusion
+
+Branches and pull requests help BIM project teams collaborate in an organized and transparent way. By working on separate branches, team members can develop changes independently, review each other's contributions, and merge approved updates into the main project.
+
+This workflow is especially useful for BIM documentation, scripts, and other text-based project files.
+
+## 9. References
+
+- [GitHub Docs – About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/using-branches/about-branches)
+- [GitHub Docs – About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [GitHub Docs – Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ---
 
-## Part 2: Writing a README in Markdown
-
-A file called `README.md` is shown automatically on its folder's page. The `.md` ending means it is written in **Markdown**, a simple way to format text using symbols. The examples below show what you type on the left and what it looks like once it's displayed.
-
-### 2.1 Headings
-Use `#` symbols. More `#` means a smaller heading.
-
-```markdown
-# Main title
-## Section
-### Subsection
-```
-
-Leave a space after the `#` and a blank line before each heading.
-
-### 2.2 Bold, italic and lists
-```markdown
-**bold text**
-*italic text*
-
-- bullet point
-- another bullet point
-
-1. first step
-2. second step
-```
-
-Leave a blank line before a list, or it may not display correctly.
-
-### 2.3 Links
-```markdown
-[text people see](https://www.example.com)
-```
-
-You can also link to another file in your repo:
-
-```markdown
-[See our A2 work](../A2/README.md)
-```
-
-### 2.4 Images
-1. Upload the image to your repo (see 1.3), e.g. to `A3/images/`.
-2. In your README, write:
-
-```markdown
-![Short description of the image](images/screenshot.png)
-```
-
-The path is relative to the README. If the README is in `A3` and the image is in `A3/images`, the path is `images/screenshot.png`. Filenames are case sensitive, so `Screenshot.PNG` and `screenshot.png` are different.
-
-### 2.5 Code blocks
-For a short piece of code inside a sentence, use single backticks: `` `print("hello")` ``.
-
-For several lines, use three backticks before and after, and add the language name for colour highlighting:
-
-````markdown
-```python
-import ifcopenshell
-model = ifcopenshell.open("model.ifc")
-print(model.by_type("IfcWall"))
-```
-````
-
-### 2.6 Tables
-```markdown
-| Name | Role |
-|---|---|
-| Anna | Modeller |
-| Ben | Analyst |
-```
-
-The second line (`|---|---|`) is required. It tells Markdown the first line is the header.
-
-### 2.7 Checking your work with Preview
-1. While editing a file, click the **Preview** tab at the top of the editor.
-2. Check that headings, lists, images and tables look right.
-3. Switch back to **Edit** to fix anything, then commit.
-
----
-
-## Troubleshooting
-| Problem | Fix |
-|---|---|
-| No "Add file" button | You're not signed in, or not a collaborator. Ask the repo owner to invite you under **Settings → Collaborators** |
-| Can't create an empty folder | GitHub doesn't allow empty folders. Create a file inside it, e.g. `A3/README.md` |
-| Image doesn't show in README | Check the path is relative to the README, the image is uploaded, and the filename matches exactly (including capitals) |
-| Formatting looks wrong | Check the Preview tab, and leave a blank line before lists and headings |
-| Heading shows as `#Title` | Add a space after the `#` |
+*Prepared by Group 23 – Structures | DTU Advanced BIM*
+  
