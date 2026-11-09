@@ -2,8 +2,6 @@
 
 ## How to Organize and Document BIM Projects Using GitHub
 
-# Working Together on GitHub: A Beginner's Group Workflow
-
 ## Summary
 **Title:** Working Together on GitHub: A Beginner's Group Workflow
 
