@@ -7,8 +7,6 @@
 **Group:** 23 – Structures  
 **Topic:** GitHub collaboration and version control  
 **Target audience:** BIM students with basic GitHub experience  
-**Learning level:** Beginner to intermediate  
-**Estimated duration:** 10–15 minutes
 
 ---
 
@@ -146,20 +144,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 
 Now it is your turn to practice using branches and pull requests.
 
-### Exercise
-
-Work with a teammate in a test repository and complete the following tasks:
-
-- [ ] Create a new branch called `update-bim-report`.
-- [ ] Open the README file on your new branch.
-- [ ] Add a short section describing a BIM-related task.
-- [ ] Commit your changes with a descriptive message.
-- [ ] Create a pull request targeting `main`.
-- [ ] Ask a teammate to review your changes.
-- [ ] Merge the pull request after review.
-- [ ] Verify that the updated README appears on `main`.
-
-**Expected outcome:** You should understand how to propose, review, and merge changes without directly editing the main branch.
 
 ## 7. Video Tutorial
 
