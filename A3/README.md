@@ -54,7 +54,7 @@ Pull requests allow teammates to:
 
 ### Example Workflow
 
-![GitHub Branches and Pull Requests Workflow](IMG/github-workflow.png)
+![GitHub Branches and Pull Requests Workflow](IMG/github-workflow.jpeg)
 
 *Figure 1. Workflow showing how branches and pull requests are used to update the main branch.*
 
