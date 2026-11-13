@@ -123,10 +123,6 @@ For this demonstration, we will use a sample BIM project repository containing a
 
 > **Important for BIM projects:** GitHub is particularly useful for text-based files such as Markdown, Python scripts, and documentation. IFC model files can be versioned, but changes to the same IFC file may not be easy to compare or merge using standard Git tools.
 
-## 6. Practical Exercise – Try It Yourself!
-
-Now it is your turn to practice using branches and pull requests.
-
 
 ## 7. Video Tutorial
 
