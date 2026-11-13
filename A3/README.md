@@ -101,10 +101,11 @@ For this demonstration, we will use a sample BIM project repository containing a
 
 1. Ask a teammate to open the pull request.
 2. Review the changes under **Files changed**.
-3. Discuss any necessary improvements.
-4. If the changes are ready and merging is permitted, click **Merge pull request**.
-5. Confirm the merge.
-6. Return to `main` and verify that the changes are included.
+3. Click **Review changes**.
+4. Select **Approve** and submit the review.
+5. Once the changes are approved, click **Merge pull request**.
+6. Confirm the merge.
+7. Return to `main` and verify that the changes are included.
 
 
 ## 5. Common Mistakes and How to Avoid Them
