@@ -6,7 +6,6 @@
 **Course:** 41934 Advanced BIM  
 **Group:** 23 – Structures  
 **Topic:** GitHub collaboration and version control  
-**Target audience:** BIM students with basic GitHub experience  
 
 ---
 
