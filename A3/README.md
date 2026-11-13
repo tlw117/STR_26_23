@@ -65,8 +65,6 @@ Pull requests allow teammates to:
   <em>Figure 1. GitHub Branches and Pull Requests Workflow.</em>
 </p>
 
-*Figure 1. Workflow showing how branches and pull requests are used to update the main branch.*
-
 ## 4. Step-by-Step Tutorial
 
 For this demonstration, we will use a sample BIM project repository containing a README file.
