@@ -99,13 +99,14 @@ For this demonstration, we will use a sample BIM project repository containing a
 
 ### Step 4 – Review and Merge
 
-1. Ask a teammate to open the pull request.
-2. Review the changes under **Files changed**.
-3. Click **Review changes**.
-4. Select **Approve** and submit the review.
-5. Once the changes are approved, click **Merge pull request**.
-6. Confirm the merge.
-7. Return to `main` and verify that the changes are included.
+1. Open the pull request.
+2. Request a review from a teammate under **Reviewers**.
+3. The teammate opens **Files changed**.
+4. Click **Review changes**.
+5. Select **Approve** and submit the review.
+6. If merging is permitted, click **Merge pull request**.
+7. Confirm the merge.
+8. Return to `main` and verify the changes.
 
 
 ## 5. Common Mistakes and How to Avoid Them
@@ -121,19 +122,19 @@ For this demonstration, we will use a sample BIM project repository containing a
 > **Important for BIM projects:** GitHub is particularly useful for text-based files such as Markdown, Python scripts, and documentation. IFC model files can be versioned, but changes to the same IFC file may not be easy to compare or merge using standard Git tools.
 
 
-## 7. Video Tutorial
+## 6. Video Tutorial
 
 Watch our step-by-step demonstration of how to create branches, make changes, open pull requests, and merge them into the main branch.
 
 🎥 **[Watch our GitHub Tutorial on YouTube](https://www.youtube.com/watch?v=ZSNLMRQG7_U)**
 
-## 8. Conclusion
+## 7. Conclusion
 
 Branches and pull requests help BIM project teams collaborate in an organized and transparent way. By working on separate branches, team members can develop changes independently, review each other's contributions, and merge approved updates into the main project.
 
 This workflow is especially useful for BIM documentation, scripts, and other text-based project files.
 
-## 9. References
+## 8. References
 
 - [GitHub Docs – About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/using-branches/about-branches)
 - [GitHub Docs – About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
