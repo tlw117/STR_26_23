@@ -123,9 +123,9 @@ For this demonstration, we will use a sample BIM project repository containing a
 
 ## 7. Video Tutorial
 
-Watch our step-by-step demonstration of the workflow described above.
+Watch our step-by-step demonstration of how to create branches, make changes, open pull requests, and merge them into the main branch.
 
-**Video:** [Watch the tutorial](INSERT_VIDEO_LINK_HERE)
+🎥 **[Watch our GitHub Tutorial on YouTube](https://www.youtube.com/watch?v=ZSNLMRQG7_U)**
 
 ## 8. Conclusion
 
