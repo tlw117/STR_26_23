@@ -23,6 +23,8 @@ This tutorial focuses on two useful GitHub features: Branches and Pull Requests.
 
 Using branches and pull requests allows team members to work on different parts of a BIM project independently. Changes can then be reviewed before being merged into the main project, reducing the risk of mistakes and improving collaboration.
 
+Since GitHub has been used throughout this course for group assignments, we wanted to explore features that go beyond its basic functions. We chose branches and pull requests because they provide a structured way for team members to work independently, review each other's contributions, and manage changes in shared BIM projects.
+
 ## 2. Learning Objectives
 
 After completing this tutorial, students should be able to:
