@@ -138,7 +138,7 @@ This workflow is especially useful for BIM documentation, scripts, and other tex
 
 ## 8. References
 
-- [GitHub Docs – About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/using-branches/about-branches)
+- [GitHub Docs – About branches](https://docs.github.com/en/pull-requests/reference/branches)
 - [GitHub Docs – About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - [GitHub Docs – Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
