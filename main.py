@@ -1,48 +1,63 @@
 
-
-import ifcopenshell
-import ifcopenshell.util.element
-import csv
 from pathlib import Path
+import subprocess
+import sys
 
-# Colums from modle to csv file
-def analyse(model):
-    columns = model.by_type("IfcColumn")
-    print("Total columns:", len(columns))
+# BIM Report Consistency Checker
+# A4 - Forensic BIM
 
-    results = []
+folder = Path(__file__).parent
 
-    for column in columns:
-        material = ifcopenshell.util.element.get_material(column)
-        storey = ifcopenshell.util.element.get_container(column)
-        column_type = ifcopenshell.util.element.get_type(column)
 
-        results.append({
-            "GlobalId": column.GlobalId,
-            "Name": column.Name,
-            "Tag": column.Tag,
-            "Type": column_type.Name if column_type else "",
-            "Material": str(material.Name) if material and material.is_a("IfcMaterial") else "Not specified",
-            "Storey": storey.Name if storey else "Not specified"
-        })
+steps = [
+    ("Extract IFC columns", "ifc_to_csv.py"),
+    ("Extract PDF report data", "pdf_to_csv.py"),
+    ("Extract IFC locations", "check_locations.py"),
+    ("Compare report and IFC", "compare.py"),
+    ("Find possible matches", "find_candidates.py"),
+    ("Add candidate locations", "candidate_locations.py"),
+    ("Generate final review report", "final_review.py"),
+]
 
-    output = Path(__file__).parent / "ifc_columns.csv"
 
-    with open(output, "w", newline="", encoding="utf-8-sig") as file:
-        writer = csv.DictWriter(
-            file,
-            fieldnames=["GlobalId", "Name", "Tag", "Type", "Material", "Storey"]
+
+def main():
+    print("\nBIM REPORT CONSISTENCY CHECKER")
+    print("=" * 45)
+
+    for description, script in steps:
+        print(f"\nSTEP: {description}")
+
+        script_path = folder / script
+
+        if not script_path.exists():
+            print(f"ERROR: Missing file {script}")
+            sys.exit(1)
+
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            cwd=folder
         )
 
-        writer.writeheader()
-        writer.writerows(results)
+        if result.returncode != 0:
+            print(f"\nERROR running {script}")
+            sys.exit(result.returncode)
 
-    print("CSV file created:", output.name)
+    print("\n" + "=" * 45)
+    print("ANALYSIS COMPLETED!")
+    print("=" * 45)
+
+    print("\nOutput files:")
+    print("- ifc_columns.csv")
+    print("- report_columns.csv")
+    print("- ifc_locations.csv")
+    print("- discrepancy_report.csv")
+    print("- candidate_matches.csv")
+    print("- candidate_locations.csv")
+
+    print("\nReview possible matches manually.")
+    print("Unmatched columns are not confirmed errors.")
 
 
 if __name__ == "__main__":
-    ifc_file = Path(__file__).parent / "B308X (1).ifc"
-
-    model = ifcopenshell.open(str(ifc_file))
-    analyse(model)
-
+    main()

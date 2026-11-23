@@ -1,0 +1,26 @@
+﻿Report_Column,Source_Table,Expected_Material,Report_Width_mm,Report_Depth_mm,Possible_IFC_Matches,IFC_Storeys,Candidates_With_Location,Status,Issue,Recommended_Action,Verification
+S201/101,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S202,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S203,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S204,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S205,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S210a,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S211,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S212f,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S213d,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S215,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S216,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S102,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S103,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S104,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S105,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S106,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S106a,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S112,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S113,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S114,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S116,5.1,Concrete,,,0,,0,INSUFFICIENT DATA,Missing cross-section dimensions in report,Find dimensions in structural documentation,NOT VERIFIED
+S208/108,5.4,Concrete,200,300,46,E1_1. sal; ES_Stue,46,MULTIPLE CANDIDATES - REVIEW,46 possible IFC columns found,"Verify storey, position and column identity",NOT VERIFIED
+S211/111,5.4,Concrete,200,300,46,E1_1. sal; ES_Stue,46,MULTIPLE CANDIDATES - REVIEW,46 possible IFC columns found,"Verify storey, position and column identity",NOT VERIFIED
+S210a/111,5.4,Concrete,200,300,46,E1_1. sal; ES_Stue,46,MULTIPLE CANDIDATES - REVIEW,46 possible IFC columns found,"Verify storey, position and column identity",NOT VERIFIED
+S210b/111,5.4,Concrete,200,300,46,E1_1. sal; ES_Stue,46,MULTIPLE CANDIDATES - REVIEW,46 possible IFC columns found,"Verify storey, position and column identity",NOT VERIFIED

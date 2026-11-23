@@ -1,0 +1,26 @@
+﻿Report_Name,Source_Table,Report_Page,Expected_Material,Width_mm,Depth_mm,Height_m,NEd_kN,Capacity_Old_kN,Util_Old_pct,Capacity_New_kN,Util_New_pct,Notes
+S201/101,5.1,10,Concrete,,,,313,738,42,,,Existing concrete column
+S202,5.1,10,Concrete,,,,525,744,71,,,Existing concrete column
+S203,5.1,10,Concrete,,,,66,1303,5.0,,,Existing concrete column
+S204,5.1,10,Concrete,,,,113,1022,12,,,Existing concrete column
+S205,5.1,10,Concrete,,,,126,3762,3.4,,,Existing concrete column
+S210a,5.1,10,Concrete,,,,667,1038,64,,,Existing concrete column
+S211,5.1,10,Concrete,,,,673,1028,66,,,Existing concrete column
+S212f,5.1,10,Concrete,,,,202,608,33,,,Existing concrete column
+S213d,5.1,10,Concrete,,,,467,608,77,,,Existing concrete column
+S215,5.1,10,Concrete,,,,667,1293,52,,,Existing concrete column
+S216,5.1,10,Concrete,,,,456,688,66,,,Existing concrete column
+S102,5.1,10,Concrete,,,,724,1184,61,,,Existing concrete column
+S103,5.1,10,Concrete,,,,136,2312,5.9,,,Existing concrete column
+S104,5.1,10,Concrete,,,,238,1513,16,,,Existing concrete column
+S105,5.1,10,Concrete,,,,250,5054,5,,,Existing concrete column
+S106,5.1,10,Concrete,,,,184,1612,11,,,Existing concrete column
+S106a,5.1,10,Concrete,,,,177,1362,13,,,Existing concrete column
+S112,5.1,10,Concrete,,,,944,2273,42,,,Existing concrete column
+S113,5.1,10,Concrete,,,,944,3931,24,,,Existing concrete column
+S114,5.1,10,Concrete,,,,944,3295,29,,,Existing concrete column
+S116,5.1,10,Concrete,,,,242,2033,12,,,Existing concrete column
+S208/108,5.4,11,Concrete,200,300,,965,593,163,1335,72,Existing section 200x300 mm
+S211/111,5.4,11,Concrete,200,300,,667,593,112,1335,50,Existing section 200x300 mm
+S210a/111,5.4,11,Concrete,200,300,,667,593,112,1335,50,Existing section 200x300 mm
+S210b/111,5.4,11,Concrete,200,300,,667,593,112,1335,50,Existing section 200x300 mm
