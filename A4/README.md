@@ -113,11 +113,13 @@ The tool was developed in Python using IfcOpenShell, PyMuPDF and CSV processing.
 
 The main output is `final_review_report.csv`, which summarises the findings for engineering review.
 
+
+
 ## 7. Results and Discussion
 
-The initial comparison based on column identifiers did not identify any direct matches between the structural report and IFC model. We therefore used material information and cross-section dimensions to identify possible corresponding elements.
+The tool processed 25 column records from the structural report and extracted 211 columns from the IFC model. Direct matching using column identifiers was unsuccessful due to differences in naming conventions.
 
-The tool was tested using the Building 308 structural report and IFC model. A total of **211 IFC columns** and **25 structural report records** were extracted.
+Using material information and cross-section dimensions, the tool identified 46 possible IFC candidates for each of four report entries. The remaining 21 entries lacked sufficient dimensional information for this matching method.
 
 | Result | Number of report records |
 |---|---:|
@@ -125,13 +127,12 @@ The tool was tested using the Building 308 structural report and IFC model. A to
 | Multiple possible IFC matches | 4 |
 | **Total** | **25** |
 
-For the four columns in Table 5.4, the tool identified **46 possible IFC candidates per report entry**, based on concrete material and 200 × 300 mm cross-section dimensions.
-
-However, the corresponding elements could not be uniquely identified because several IFC columns shared the same properties.
+The results were exported to `final_review_report.csv`, highlighting missing information and ambiguous matches requiring further engineering review. No unique element matches could be confirmed.
 
 ### Testing
 
 The comparison function was tested using two controlled examples: one with matching dimensions and one with a dimension mismatch. Both tests passed, confirming that the tool can identify dimensional differences when corresponding elements are known.
+
 
 ## 8. Limitations and Future Improvements
 
